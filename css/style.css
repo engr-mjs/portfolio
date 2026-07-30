@@ -25,10 +25,17 @@ html:not(.dark) body { background: #fff; color: #27272a; }
   display: none;
   overflow-y: auto;
   max-height: 100vh;
+  width: 100vw;
   scrollbar-width: none;
   position: relative;
+  flex-direction: column;
+  align-items: center;
 }
 .section.active { display: flex; }
+.section > * {
+  width: 100%;
+  max-width: 36rem;
+}
 .section::-webkit-scrollbar { display: none; }
 
 /* Page transitions */
