@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications &mdash; Mark Joseph Silang</title>
+  <meta name="description" content="Mark Joseph Silang — computer engineering student building web & mobile apps, experimenting with hardware, and exploring AI.">
+  <link rel="icon" type="image/jpeg" href="../assets/images/pfp-unp.jpg">
+  <!-- fonts are self-hosted in assets/fonts/fonts.css -->
+  <link href="../assets/fonts/fonts.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Geist', 'system-ui', 'sans-serif'],
+            display: ['Geist', 'Space Grotesk', 'sans-serif'],
+            mono: ['Geist Mono', 'ui-monospace', 'monospace'],
+            pixel: ['Geist Pixel', 'Geist Mono', 'monospace'],
+          },
+          colors: {
+            ink: 'rgb(var(--ink) / <alpha-value>)',
+            white: 'rgb(var(--bg) / <alpha-value>)',
+            black: 'rgb(var(--ink) / <alpha-value>)',
+            gray: {
+              50: 'rgb(var(--g50) / <alpha-value>)', 100: 'rgb(var(--g100) / <alpha-value>)', 200: 'rgb(var(--g200) / <alpha-value>)', 300: 'rgb(var(--g300) / <alpha-value>)',
+              400: 'rgb(var(--g400) / <alpha-value>)', 500: 'rgb(var(--g500) / <alpha-value>)', 600: 'rgb(var(--g600) / <alpha-value>)', 700: 'rgb(var(--g700) / <alpha-value>)',
+              800: 'rgb(var(--g800) / <alpha-value>)', 900: 'rgb(var(--g900) / <alpha-value>)', 950: 'rgb(var(--g950) / <alpha-value>)',
+            },
+          },
+          letterSpacing: { tightest: '-0.045em' },
+        }
+      }
+    }
+  </script>
+
+  <style></style>
+</head>
+
+<body data-base="..">
+
+  <!-- ── Background halftone field ─────────────────────────── -->
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 z-0">
+    <div class="halftone halftone-wide mask-tr absolute right-0 top-0 h-[70vh] w-[65vw] opacity-[0.16]"></div>
+    <div class="halftone mask-bl absolute bottom-0 left-0 h-[60vh] w-[55vw] opacity-[0.13]"></div>
+  </div>
+
+  <!-- ═══════════════ SIDEBAR ═══════════════ -->
+  <nav class="fixed inset-y-0 left-0 z-50 hidden w-56 flex-col bg-white px-7 py-8 lg:flex">
+    <a href="../" class="shrink-0 font-pixel text-[15px] leading-none hover:opacity-60">Mark Joseph Silang</a>
+
+    <div class="mt-9 flex flex-1 flex-col items-start justify-center gap-4 overflow-y-auto font-mono text-[13px]">
+      <div class="flex flex-col items-start gap-2.5">
+        <a href="../projects/" class="relative inline-flex w-fit items-center gap-2.5 text-gray-500 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> Projects</a>
+        <a href="../experience/" class="relative inline-flex w-fit items-center gap-2.5 text-gray-500 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> Experience</a>
+        <a href="../stack/" class="relative inline-flex w-fit items-center gap-2.5 text-gray-500 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 13l10 5 10-5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> Stack</a>
+        <a href="../certifications/" aria-current="page" class="relative inline-flex w-fit items-center gap-2.5 text-ink hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="1.6"/><path d="M8.7 13.5 7 22l5-3 5 3-1.7-8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Certifications</a>
+        <a href="../gallery/" class="relative inline-flex w-fit items-center gap-2.5 text-gray-500 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="9" r="2" stroke="currentColor" stroke-width="1.6"/><path d="m21 15-4.5-4.5L7 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Gallery</a>
+        <a href="../contact/" class="relative inline-flex w-fit items-center gap-2.5 text-gray-500 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact</a>
+      </div>
+    </div>
+
+    
+
+    
+
+
+
+    <div class="mt-6 shrink-0">
+      <div class="mb-4 flex items-center gap-2">
+        <div class="theme-switch" role="group" aria-label="Theme">
+          <button type="button" data-theme-opt="system" onclick="setTheme('system', event)" class="theme-opt" title="System" aria-label="System theme">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 21h6M12 17v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </button>
+          <button type="button" data-theme-opt="light" onclick="setTheme('light', event)" class="theme-opt" title="Light" aria-label="Light theme">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M19 5l-1.4 1.4M6.4 17.6L5 19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </button>
+          <button type="button" data-theme-opt="dark" onclick="setTheme('dark', event)" class="theme-opt" title="Dark" aria-label="Dark theme">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M20 13.6A8 8 0 1 1 10.4 4a6.2 6.2 0 0 0 9.6 9.6z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <button
+          type="button"
+          data-sound-toggle
+          class="inline-flex h-[30px] w-[30px] items-center justify-center rounded-full border border-gray-200 text-gray-500 hover:border-gray-300 hover:text-ink"
+          aria-pressed="true"
+          aria-label="Disable interface sounds"
+          title="Sounds on"
+        >
+          <svg data-sound-on class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 10v4h3l4 3V7L8 10H5zM16 9a4 4 0 010 6M18.5 6.5a7.5 7.5 0 010 11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg data-sound-off class="h-3.5 w-3.5 hidden" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 10v4h3l4 3V7L8 10H5zM16 10l5 5M21 10l-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      <p class="text-[12px] leading-relaxed text-gray-400">For work, collabs &amp; everything else, reach me at</p>
+      <a href="mailto:engr.markjosephsilang@gmail.com" title="engr.markjosephsilang@gmail.com" class="mt-1.5 flex w-full items-center gap-2 text-ink hover:text-gray-500"><svg viewBox="0 0 24 24" fill="none" class="h-[1.15em] w-[1.15em] shrink-0"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="min-w-0 flex-1 truncate font-mono text-[13px]">engr.markjosephsilang@gmail.com</span></a>
+    </div>
+  </nav>
+
+  <!-- ── Mobile top bar (below lg) ─────────────────────────── -->
+  <header class="sticky top-0 z-50 border-b border-gray-200/70 bg-white/90 backdrop-blur-md lg:hidden">
+    <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-3">
+      <a href="../" class="font-pixel text-[14px]">Mark Joseph Silang</a>
+      <button type="button" onclick="openMobileNav()" aria-label="Open menu" class="-mr-1 p-1 text-gray-700 hover:text-ink">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Mobile full-screen menu ───────────────────────────── -->
+  <div id="mobileNav" class="fixed inset-0 z-[60] hidden flex-col bg-white lg:hidden">
+    <div class="flex items-center justify-between border-b border-gray-200 px-6 py-3">
+      <a href="../" class="font-pixel text-[14px]">Mark Joseph Silang</a>
+      <button type="button" onclick="closeMobileNav()" aria-label="Close menu" class="-mr-1 p-1 text-gray-700 hover:text-ink">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <div class="flex flex-1 flex-col overflow-y-auto px-7 py-8 font-mono text-[16px]">
+      <div class="mnav-group flex flex-col gap-4" style="transition-delay: 0.05s">
+        <a href="../projects/" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-gray-700 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> Projects</a>
+        <a href="../experience/" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-gray-700 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> Experience</a>
+        <a href="../stack/" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-gray-700 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 13l10 5 10-5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> Stack</a>
+        <a href="../certifications/" aria-current="page" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="1.6"/><path d="M8.7 13.5 7 22l5-3 5 3-1.7-8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Certifications</a>
+        <a href="../gallery/" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-gray-700 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="9" r="2" stroke="currentColor" stroke-width="1.6"/><path d="m21 15-4.5-4.5L7 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Gallery</a>
+        <a href="../contact/" onclick="closeMobileNav()" class="relative inline-flex w-fit items-center gap-3 text-gray-700 hover:text-ink"><svg viewBox="0 0 24 24" fill="none" class="h-[18px] w-[18px] shrink-0" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact</a>
+      </div>
+      <div class="my-5 h-px bg-gray-200"></div>
+
+      <div class="mnav-group flex flex-col gap-5" style="transition-delay: 0.17s">
+        <div class="flex items-center gap-2">
+          <div class="theme-switch" role="group" aria-label="Theme">
+            <button type="button" data-theme-opt="system" onclick="setTheme('system', event)" class="theme-opt" title="System" aria-label="System theme">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 21h6M12 17v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </button>
+            <button type="button" data-theme-opt="light" onclick="setTheme('light', event)" class="theme-opt" title="Light" aria-label="Light theme">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M19 5l-1.4 1.4M6.4 17.6L5 19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </button>
+            <button type="button" data-theme-opt="dark" onclick="setTheme('dark', event)" class="theme-opt" title="Dark" aria-label="Dark theme">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M20 13.6A8 8 0 1 1 10.4 4a6.2 6.2 0 0 0 9.6 9.6z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <p class="text-[13px] leading-relaxed text-gray-400">For work, collabs &amp; everything else, reach me at</p>
+        <a href="mailto:engr.markjosephsilang@gmail.com" title="engr.markjosephsilang@gmail.com" class="-mt-2 flex w-full items-center gap-2 text-ink hover:text-gray-500"><svg viewBox="0 0 24 24" fill="none" class="h-[1.15em] w-[1.15em] shrink-0"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="min-w-0 flex-1 truncate font-mono text-[13px]">engr.markjosephsilang@gmail.com</span></a>
+      </div>
+    </div>
+  </div>
+
+  
+ ═══════════════ -->
+  <main id="top" class="relative z-10 lg:pl-56">
+    <div class="mx-auto max-w-2xl px-6">
+      <!-- ── Page header ── -->
+      <section class="pt-16 pb-6">
+        <a href="../" class="font-mono text-[11px] uppercase tracking-wider text-gray-500 hover:text-ink">&larr; back to home</a>
+        <h1 class="mt-4 font-pixel text-3xl leading-none sm:text-[2.6rem]">certifications</h1>
+        <p class="mt-3 font-mono text-[12px] uppercase tracking-wider text-gray-400">05 credentials &mdash; trainings &middot; seminars &middot; certifications</p>
+      </section>
+      <div aria-hidden="true" class="halftone halftone-wide mask-fade-x my-2 h-6 w-full opacity-[0.18]"></div>
+      <!-- ── Trainings ── -->
+      <section class="py-10">
+        <h2 class="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-400">01 &mdash; Trainings</h2>
+        <div class="mt-4 grid gap-5 sm:grid-cols-2">
+
+          <a href="javascript:void(0)" onclick="openLightbox('cert-java'); return false;"
+             class="group overflow-hidden rounded-2xl bg-[#18181B] shadow-[0_14px_40px_-24px_rgba(10,10,10,0.28)] transition hover:-translate-y-1">
+            <div class="overflow-hidden">
+              <img src="../assets/images/java-fundamentals-cert.png" alt="Java Fundamentals certificate" class="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+            </div>
+            <div class="p-5">
+              <h2 class="text-[15px] font-semibold leading-snug text-ink">Java Fundamentals</h2>
+              <p class="mt-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-gray-400">Oracle Academy &middot; Jun 2024</p>
+              <p class="mt-3 font-mono text-[11px] text-gray-400 transition group-hover:text-ink">&lt; VERIFY &gt;</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- ── Seminars ── -->
+      <section class="py-10">
+        <h2 class="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-400">02 &mdash; Seminars</h2>
+        <div class="mt-4 grid gap-5 sm:grid-cols-2">
+          <a href="javascript:void(0)" onclick="openLightbox('cert-ymih'); return false;"
+             class="group overflow-hidden rounded-2xl bg-[#18181B] shadow-[0_14px_40px_-24px_rgba(10,10,10,0.28)] transition hover:-translate-y-1">
+            <div class="overflow-hidden">
+              <img src="../assets/images/ymih-cert.jpg" alt="YMIH certificate" class="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+            </div>
+            <div class="p-5">
+              <h2 class="text-[15px] font-semibold leading-snug text-ink">Youth Can Make It Happen: Academic Roadshow</h2>
+              <p class="mt-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-gray-400">Leadership &amp; Community Service</p>
+              <p class="mt-3 font-mono text-[11px] text-gray-400 transition group-hover:text-ink">&lt; VERIFY &gt;</p>
+            </div>
+          </a>
+          <a href="javascript:void(0)" onclick="openLightbox('cert-bootcamp'); return false;"
+             class="group overflow-hidden rounded-2xl bg-[#18181B] shadow-[0_14px_40px_-24px_rgba(10,10,10,0.28)] transition hover:-translate-y-1">
+            <div class="overflow-hidden">
+              <img src="../assets/images/it-bootcamp-cert.png" alt="I.T. Boot Camp certificate" class="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+            </div>
+            <div class="p-5">
+              <h2 class="text-[15px] font-semibold leading-snug text-ink">AI Learning Series: I.T. Boot Camp</h2>
+              <p class="mt-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-gray-400">STI College Batangas</p>
+              <p class="mt-3 font-mono text-[11px] text-gray-400 transition group-hover:text-ink">&lt; VERIFY &gt;</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- ── Professional certifications ── -->
+      <section class="py-10">
+        <h2 class="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-400">03 &mdash; Professional Certifications</h2>
+        <div class="mt-4 grid gap-5 sm:grid-cols-2">
+          <a href="javascript:void(0)" onclick="openLightbox('cert-solidedge'); return false;"
+             class="group overflow-hidden rounded-2xl bg-[#18181B] shadow-[0_14px_40px_-24px_rgba(10,10,10,0.28)] transition hover:-translate-y-1">
+            <div class="overflow-hidden">
+              <img src="../assets/images/solid-edge-cert.png" alt="Solid Edge certificate" class="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+            </div>
+            <div class="p-5">
+              <h2 class="text-[15px] font-semibold leading-snug text-ink">Solid Edge Associate Level Certification</h2>
+              <p class="mt-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-gray-400">Siemens Digital Industries Software &middot; Nov 2025</p>
+              <p class="mt-1 font-mono text-[10px] text-gray-400">cert id 21124-176-422-2514</p>
+              <p class="mt-3 font-mono text-[11px] text-gray-400 transition group-hover:text-ink">&lt; VERIFY &gt;</p>
+            </div>
+          </a>
+          <a href="javascript:void(0)" onclick="openLightbox('cert-redhat'); return false;"
+             class="group overflow-hidden rounded-2xl bg-[#18181B] shadow-[0_14px_40px_-24px_rgba(10,10,10,0.28)] transition hover:-translate-y-1">
+            <div class="overflow-hidden">
+              <img src="../assets/images/redhat-rh124-cert.png" alt="Red Hat System Administration I certificate" class="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+            </div>
+            <div class="p-5">
+              <h2 class="text-[15px] font-semibold leading-snug text-ink">Red Hat System Administration I</h2>
+              <p class="mt-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-gray-400">Red Hat &middot; Aug 2026</p>
+              <p class="mt-1 font-mono text-[10px] text-gray-400">40 credit hours &middot; RH124</p>
+              <p class="mt-3 font-mono text-[11px] text-gray-400 transition group-hover:text-ink">&lt; VERIFY &gt;</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+</div>
+  </main>
+
+
+
+
+  <!-- ═══════════════ MODAL ═══════════════ -->
+  <div id="modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-5" role="dialog" aria-modal="true">
+    <div data-modal-backdrop class="absolute inset-0 bg-ink/30 backdrop-blur-md opacity-0 transition-opacity duration-200" onclick="closeModal()"></div>
+
+    <!-- email panel -->
+    <div data-panel="email" class="relative hidden w-full max-w-sm scale-95 rounded-xl border border-gray-200 bg-white p-7 opacity-0 shadow-[0_40px_90px_-20px_rgba(0,0,0,0.35)] transition-all duration-200">
+      <button type="button" onclick="closeModal()" aria-label="Close" class="absolute right-4 top-4 text-gray-400 hover:text-ink">
+        <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <p class="font-mono text-[11px] uppercase tracking-wider text-gray-400">Get in touch</p>
+      <h2 class="mt-3 font-pixel text-xl leading-none">say hello</h2>
+      <p class="mt-3 text-[14px] leading-relaxed text-gray-600">For work, collabs, or just to say hi — drop me a line.</p>
+      <div class="mt-5 flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 p-1.5">
+        <span class="flex-1 truncate px-2 font-mono text-[13px] text-ink">engr.markjosephsilang@gmail.com</span>
+        <button type="button" onclick="copyEmail(event)" data-copy-btn class="shrink-0 rounded-md bg-ink px-3 py-1.5 text-[12px] font-medium text-white hover:bg-gray-800">Copy</button>
+      </div>
+      <a href="mailto:engr.markjosephsilang@gmail.com" class="mt-3 block w-full rounded-lg border border-gray-300 px-4 py-2.5 text-center text-sm font-medium text-ink hover:border-ink">Open mail app</a>
+      <a href="tel:+639948855483" class="mt-2 block w-full rounded-lg border border-gray-300 px-4 py-2.5 text-center text-sm font-medium text-ink hover:border-ink">+63 994-885-5483</a>
+    </div>
+
+    <!-- lightbox panel (projects + certificates) -->
+    <div data-panel="lightbox" class="relative hidden w-full max-w-lg scale-95 rounded-xl border border-gray-200 bg-white p-7 opacity-0 shadow-[0_40px_90px_-20px_rgba(0,0,0,0.35)] transition-all duration-200">
+      <button type="button" onclick="closeModal()" aria-label="Close" class="absolute right-4 top-4 z-10 text-gray-400 hover:text-ink">
+        <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <div id="lbSlides" class="relative overflow-hidden rounded-lg border border-gray-200 bg-gray-50">
+        <img id="lbImg" src="" alt="" class="w-full object-contain">
+        <button type="button" id="lbPrev" onclick="lbStep(-1)" class="absolute left-2 top-1/2 hidden h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white/90 text-gray-500 backdrop-blur hover:text-ink">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" id="lbNext" onclick="lbStep(1)" class="absolute right-2 top-1/2 hidden h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white/90 text-gray-500 backdrop-blur hover:text-ink">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <p id="lbEyebrow" class="mt-4 font-mono text-[10px] uppercase tracking-wider text-gray-400"></p>
+      <h2 id="lbTitle" class="mt-1 font-pixel text-lg leading-tight text-ink"></h2>
+      <p id="lbDesc" class="mt-2 text-[13.5px] leading-relaxed text-gray-600"></p>
+      <div id="lbTags" class="mt-3 flex flex-wrap gap-1.5"></div>
+      <a id="lbLink" href="#" target="_blank" rel="noopener" class="mt-5 inline-flex w-fit items-center gap-2 font-mono text-[11px] uppercase tracking-wider text-gray-500 hover:text-ink"></a>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
