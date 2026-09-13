@@ -295,6 +295,12 @@ const LB_DATA = {
         tags: ['Red Hat', 'RH124'],
         images: ['assets/images/redhat-rh124-cert.png'],
         doc: 'assets/docs/Red Hat System Administration I.pdf'
+    },
+    'cert-code-smarter': {
+        eyebrow: 'certificate — verified', title: 'Code Smarter: Modern Software Development with AI',
+        desc: 'Online community webinar covering AI-assisted software development — prompt engineering, building apps faster with AI, AI-powered workflows, and becoming an AI-ready developer.',
+        tags: ['DEVCON Manila'],
+        images: ['assets/images/code-smarter-cert.png']
     }
 };
 let lbKey = null, lbIdx = 0;
@@ -315,9 +321,9 @@ function openLightbox(key, idx) {
     });
     const link = document.getElementById('lbLink');
     if (key.startsWith('cert-')) {
-        link.href = baseUrl(d.doc || 'assets/docs/CV.pdf');
+        link.href = baseUrl(d.doc || d.images[0]);
         link.target = '_blank';
-        link.textContent = d.doc ? 'view certificate pdf ↗' : 'view cv ↗';
+        link.textContent = d.doc ? 'view certificate pdf ↗' : 'view certificate ↗';
     } else {
         link.href = '#projects';
         link.target = '';
